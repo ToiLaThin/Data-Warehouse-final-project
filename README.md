@@ -3,3 +3,9 @@
 
 > This include ETL pipeline, python for create csv data source and making report using mdx or power bi, excel pivot table and chart.  
 > Feel free to clone for studying purposes. 
+
+1. First run 2 sql file for creating db for ETL process
+2. run python files filterd_cps.py -> get_all_dims.py -> get_all_facts.py for creating csv files
+3. Run Visual Studio 2019 solution CPS_SSIS for ETL from csv -> cps_st database -> cps_dw database
+4. Run SSAS_CPS solution for query the OLAP cube
+5. Run Power BI for report(note that may require configuration for your own machine to get the data source)
