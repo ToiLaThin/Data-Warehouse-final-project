@@ -1,0 +1,591 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cf9f2551-0546-4f90-9659-bc79f6bf13da" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CPS DW Metadata View 1</ID>
+  <Name>CPS DW Hourly Employed Cube</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="32" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8184" scrolltop="-336" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="27623" y="20786" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimMaritalStatus" left="20" top="5694" logicalid="16" controlid="1" masterid="0" hint1="0" hint2="0" width="3831" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000f70e000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimMaritalStatus" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimState" left="13046" top="5874" logicalid="17" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimState" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactEmploymentPeriodicityHourly" left="6251" top="3988" logicalid="18" controlid="3" masterid="0" hint1="0" hint2="0" width="4085" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000f50f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FactEmploymentPeriodicityHourly" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDetailOccupation" left="3435" top="13849" logicalid="19" controlid="4" masterid="0" hint1="0" hint2="0" width="4318" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000de10000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDetailOccupation" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimRace" left="10153" top="13849" logicalid="20" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimRace" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimMetropolitan" left="12736" top="1527" logicalid="21" controlid="6" masterid="0" hint1="0" hint2="0" width="3620" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000240e00009b070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimMetropolitan" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDetailIndustry" left="12736" top="9862" logicalid="22" controlid="7" masterid="0" hint1="0" hint2="0" width="3916" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004c0f000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDetailIndustry" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimEducation" left="6653" top="0" logicalid="23" controlid="8" masterid="0" hint1="0" hint2="0" width="3281" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d10c000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimEducation" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3551" top="6089" logicalid="24" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactEmploymentPeriodicityHourly_DimMaritalStatus]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="17" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3851" y="6488" />
+              <point x="6251" y="6488" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="14147" top="3174" logicalid="25" controlid="10" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkDimMetropolitan_DimState]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="14546" y="5874" />
+              <point x="14546" y="3474" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8543" top="8688" logicalid="26" controlid="11" masterid="0" hint1="0" hint2="0" width="3510" height="5661" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactEmploymentPeriodicityHourly_DimRace]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11653" y="13849" />
+              <point x="11653" y="11419" />
+              <point x="8843" y="11419" />
+              <point x="8843" y="8988" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5195" top="8688" logicalid="27" controlid="12" masterid="0" hint1="0" hint2="0" width="2298" height="5661" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactEmploymentPeriodicityHourly_DimDetailOccupation]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="6" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5594" y="13849" />
+              <point x="5594" y="11419" />
+              <point x="7193" y="11419" />
+              <point x="7193" y="8988" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7894" top="1089" logicalid="28" controlid="13" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactEmploymentPeriodicityHourly_DimEducation]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="3" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8293" y="1588" />
+              <point x="8293" y="3988" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="10036" top="6738" logicalid="29" controlid="14" masterid="0" hint1="0" hint2="0" width="3000" height="4318" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactEmploymentPeriodicityHourly_DimDetailIndustry]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="3" sourceattachpoint="16" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12736" y="10656" />
+              <point x="11536" y="10656" />
+              <point x="11536" y="7038" />
+              <point x="10336" y="7038" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="10036" top="2101" logicalid="30" controlid="15" masterid="0" hint1="0" hint2="0" width="3000" height="3587" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactEmploymentPeriodicityHourly_DimMetropolitan]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="3" sourceattachpoint="16" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12736" y="2500" />
+              <point x="11536" y="2500" />
+              <point x="11536" y="5388" />
+              <point x="10336" y="5388" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-8184</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-336</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="6e157a4a-f6ec-4b8e-becc-df573846f312">
+      <ID>Dim Race</ID>
+      <Name>Dim Race</Name>
+      <DimensionID>Dim Race</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9a14f117-9460-4b99-9164-5484aff6eaa0">
+          <AttributeID>Race Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c9ba8592-3f89-407d-9d66-0a7995cfeeed">
+          <AttributeID>Race Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="cd3086ea-694a-4f4d-b3b5-747a0ab76ccd">
+      <ID>Dim Marital Status</ID>
+      <Name>Dim Marital Status</Name>
+      <DimensionID>Dim Marital Status</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="23683113-84c9-4be7-955b-b2b5ded404cd">
+          <AttributeID>Marital Status Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a0b5f814-893e-4320-94b5-8d306ade0080">
+          <AttributeID>Marital Status Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="cf32edbf-0058-4227-b6e9-870021a95d6d">
+      <ID>Dim Detail Occupation</ID>
+      <Name>Dim Detail Occupation</Name>
+      <DimensionID>Dim Detail Occupation</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="59f1342c-ea02-4429-96b3-9c500b580879">
+          <AttributeID>Detail Occupation Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="030a0166-44c4-468d-864a-af542ae170db">
+          <AttributeID>Detail Occupation Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7b6340f1-2f07-4a41-9d8c-b5607901a4e9">
+      <ID>Dim Education</ID>
+      <Name>Dim Education</Name>
+      <DimensionID>Dim Education</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="718e286b-bd30-40b9-b31f-530ade24057e">
+          <AttributeID>Education Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c81c4836-231e-4943-99fb-e2563f737fee">
+          <AttributeID>Education Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c8a25a67-aaef-4bdf-a733-b60f9cb06cbc">
+      <ID>Dim Detail Industry</ID>
+      <Name>Dim Detail Industry</Name>
+      <DimensionID>Dim Detail Industry</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="678fb67b-d6aa-4129-8580-c48d7c038296">
+          <AttributeID>Detail Industry Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f95972fa-330e-4e4a-88ee-2c14e371145e">
+          <AttributeID>Detail Industry Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b97b5d1f-ff5e-4483-acae-26443655219b">
+      <ID>Dim Metropolitan</ID>
+      <Name>Dim Metropolitan</Name>
+      <DimensionID>Dim Metropolitan</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5d4128ee-8fac-4676-ac7e-e19f99b2ed9e">
+          <AttributeID>Metropolitan Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="858c2842-d2e4-42a7-b359-9346e906489e">
+          <AttributeID>State Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e8cb4504-ac89-4eff-a746-e053f9211d3c">
+          <AttributeID>State Value</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="baf9202f-3573-46a4-9f3a-0bf77779b714">
+          <AttributeID>Metropolitan Value</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="160af8fb-514a-4e4e-838d-e2c84135a728">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="199bfc6d-475b-4930-8d81-e9ccc85fe404">
+      <ID>Fact Employment Periodicity Hourly</ID>
+      <Name>Fact Employment Periodicity Hourly</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="58df47ad-e275-455c-b1e0-c0d583bfc376">
+          <ID>n Age</ID>
+          <Name>Hourly Min Age</Name>
+          <AggregateFunction>Min</AggregateFunction>
+          <Source dwd:design-time-name="d614bb63-ee4c-46dd-9acc-71e63c3357df">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4609323e-a8ec-4487-a16a-4d256323e6fe">
+              <TableID>dbo_FactEmploymentPeriodicityHourly</TableID>
+              <ColumnID>n_age</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4a51264f-eedf-4262-b30f-8b3e9bb4764a">
+          <ID>n Hourly Rate</ID>
+          <Name>Hourly Max Rate</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="71b26847-8974-4cd8-8448-47abfe0be682">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ac5ad002-8850-4168-ab02-e8ed81c21cec">
+              <TableID>dbo_FactEmploymentPeriodicityHourly</TableID>
+              <ColumnID>n_hourly_rate</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d2e413fb-553b-4bb3-8c12-56fc40ed22ab">
+          <ID>n Usual Hours Aweek</ID>
+          <Name>Hourly Max Usual Hours Week</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="efae9a6a-f24c-4726-816c-7696d683f3f2">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1a7f290e-1e87-48f7-9dc2-0361ebb39c00">
+              <TableID>dbo_FactEmploymentPeriodicityHourly</TableID>
+              <ColumnID>n_usual_hours_aweek</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="26e54019-1122-4262-8db2-d1b3087c2814">
+          <ID>Fact Employment Periodicity Hourly Count</ID>
+          <Name>Hourly Number Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="1a8a3251-9e09-4779-acbf-a6a7aade6128">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="69da075d-068f-4982-9768-be55d2741e90">
+              <TableID>dbo_FactEmploymentPeriodicityHourly</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9a6a7638-cd82-4a68-9fc9-97d77f9caed1">
+          <ID>n Age 1</ID>
+          <Name>Hourly Max Age</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="aec1ff6a-9635-4b07-a9a1-34ca09c78981">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bc0a2e70-5e4e-4af2-a30d-e8c4d609501c">
+              <TableID>dbo_FactEmploymentPeriodicityHourly</TableID>
+              <ColumnID>n_age</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="13ae4a19-8006-4f86-a943-6f75803e9075">
+          <ID>n Hourly Rate 1</ID>
+          <Name>Hourly Min Usual Hours Week</Name>
+          <AggregateFunction>Min</AggregateFunction>
+          <Source dwd:design-time-name="fe1e36a5-79c0-41e3-9d98-50f051f5ca0b">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="61ed0919-6692-4e50-9581-2155c1584ac3">
+              <TableID>dbo_FactEmploymentPeriodicityHourly</TableID>
+              <ColumnID>n_usual_hours_aweek</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ddc0a199-c995-4175-9ebc-aee36d83804d">
+          <ID>Minimum n Hourly Rate</ID>
+          <Name>Hourly Min Rate</Name>
+          <AggregateFunction>Min</AggregateFunction>
+          <Source dwd:design-time-name="67357539-b881-48ac-a7fb-09f3a11bfcd8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d2908edc-9c6e-42ee-8df0-dfac95caee73">
+              <TableID>dbo_FactEmploymentPeriodicityHourly</TableID>
+              <ColumnID>n_hourly_rate</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="aa6f3fcf-0974-49e8-a792-85a2ba763a89">
+          <CubeDimensionID>Dim Race</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="43d73e0a-82c5-4df6-aaa3-5cc6058f1f06">
+              <AttributeID>Race Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="786030a8-59fa-40f1-8725-7c012c37affe">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e38e9bdb-7408-4a72-946b-6f0275286b1a">
+                    <TableID>dbo_FactEmploymentPeriodicityHourly</TableID>
+                    <ColumnID>f_race_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3c4557d9-a811-4f9c-a316-d8cf7cbca58a">
+          <CubeDimensionID>Dim Marital Status</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="782fc74d-a178-4c2a-ad07-87e4cf5d303e">
+              <AttributeID>Marital Status Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7b2bdcf5-c108-493d-aaec-60521b010287">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f40922d0-70a9-4be0-b283-7812c239a4e1">
+                    <TableID>dbo_FactEmploymentPeriodicityHourly</TableID>
+                    <ColumnID>f_marital_status_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ca123599-5be2-41c8-9601-f1bd3144e0fa">
+          <CubeDimensionID>Dim Detail Occupation</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="387a2585-48bf-4fce-ba0b-4bdaea4b9633">
+              <AttributeID>Detail Occupation Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6ba87f41-13c9-44cf-91af-11f499227990">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="61959eb8-c025-4fa4-85b6-12976f1ae3e0">
+                    <TableID>dbo_FactEmploymentPeriodicityHourly</TableID>
+                    <ColumnID>f_detail_occupation_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0eb6227c-d396-4600-a5f6-7cc441f488bb">
+          <CubeDimensionID>Dim Education</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1c7ed812-796b-42bb-8dbd-f807e4266554">
+              <AttributeID>Education Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="698acead-7291-4c76-9ba5-13765712157d">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="660ee8b6-7c56-4602-830f-aa93d00356f8">
+                    <TableID>dbo_FactEmploymentPeriodicityHourly</TableID>
+                    <ColumnID>f_education_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5d4921a0-1d32-45a4-8413-b46943a870bf">
+          <CubeDimensionID>Dim Detail Industry</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a3981ffc-0808-4b68-8a12-2aa8fbc2c929">
+              <AttributeID>Detail Industry Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3e1d8a79-fd89-4915-98c9-a1287e3e1b6e">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="028e3940-3c5d-468b-bcc9-cc1416aa64ad">
+                    <TableID>dbo_FactEmploymentPeriodicityHourly</TableID>
+                    <ColumnID>f_detail_industry_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="55748aa2-679b-4620-a35f-00ff62c650b9">
+          <CubeDimensionID>Dim Metropolitan</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="04a30a4e-0d4f-447f-97fe-baa418bc658e">
+              <AttributeID>Metropolitan Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bb4155ab-2d3e-4714-a89d-9fb21b4c2d76">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d32695bc-5505-4457-96f3-ab89b618019a">
+                    <TableID>dbo_FactEmploymentPeriodicityHourly</TableID>
+                    <ColumnID>f_metropolitan_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="fbaeee7c-a01a-4328-be04-2bfde7470a1a">
+    <DataSourceViewID>CPS DW Metadata View</DataSourceViewID>
+  </Source>
+</Cube>

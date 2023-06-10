@@ -1,0 +1,133 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>CPS DW Data Source</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=CPS_DW</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>Dim Metropolitan</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Marital Status</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Education</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Race</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Detail Occupation</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Detail Industry</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim House Hold Income</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim House Hold Unit</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim House Hold Type</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Job Seeking Method</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Unemployment Reason</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>CPS DW Household Cube</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact House Hold</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact House Hold</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>CPS DW Employment Cube</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Employment</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Employment</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>CPS DW Metadata View</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Unemployment</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Unemployment</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>CPS DW Job Seeking Cube</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Job Seeking</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Job Seeking</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>CPS DW Metadata View 1</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Employment Periodicity Hourly</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Employment Periodicity Hourly</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>CPS DW Weekly Employed Cube</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Fact Employment Periodicity Weekly</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact Employment Periodicity Weekly</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+      <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

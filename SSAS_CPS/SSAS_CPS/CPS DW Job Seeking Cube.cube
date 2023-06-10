@@ -1,0 +1,956 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3d7e8b63-ce80-42f4-9a85-986e45d74989" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CPS DW Job Seeking Cube</ID>
+  <Name>CPS DW Job Seeking Cube</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="25" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9877" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="88" x="24321" y="16129" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimMaritalStatus" left="3686" top="16310" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3831" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000f70e000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimMaritalStatus" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimRace" left="13985" top="6161" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimRace" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimEducation" left="13985" top="10149" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3281" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d10c000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimEducation" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactJobSeeking" left="6336" top="6449" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="5249" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008114000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FactJobSeeking" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDetailOccupation" left="9917" top="16310" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="4318" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000de10000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDetailOccupation" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimState" left="626" top="8335" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimState" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimMetropolitan" left="316" top="3988" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3620" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000240e00009b070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimMetropolitan" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDetailIndustry" left="20" top="12323" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3916" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004c0f000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDetailIndustry" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimUnemploymentReason" left="10023" top="0" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="5017" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009913000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimUnemploymentReason" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimJobSeekingMethod" left="2882" top="0" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="4741" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008512000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimJobSeekingMethod" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5202" top="11149" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="2958" height="5661" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactJobSeeking_DimMaritalStatus]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5601" y="16310" />
+              <point x="5601" y="13880" />
+              <point x="7860" y="13880" />
+              <point x="7860" y="11449" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="11285" top="6556" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="3000" height="1593" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactJobSeeking_DimRace]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="12" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13985" y="6955" />
+              <point x="12785" y="6955" />
+              <point x="12785" y="7849" />
+              <point x="11585" y="7849" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="11285" top="9199" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="2144" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactJobSeeking_DimEducation]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="12" destattachpoint="29" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13985" y="10943" />
+              <point x="12785" y="10943" />
+              <point x="12785" y="9499" />
+              <point x="11585" y="9499" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3753" top="1089" logicalid="14" controlid="14" masterid="0" hint1="0" hint2="0" width="4407" height="5660" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactJobSeeking_DimJobSeekingMethod1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="4" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4152" y="1588" />
+              <point x="4152" y="4018" />
+              <point x="7860" y="4018" />
+              <point x="7860" y="6449" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4303" top="1089" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="4407" height="5660" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactJobSeeking_DimJobSeekingMethod3]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="4" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4702" y="1588" />
+              <point x="4702" y="4018" />
+              <point x="8410" y="4018" />
+              <point x="8410" y="6449" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4853" top="1089" logicalid="16" controlid="16" masterid="0" hint1="0" hint2="0" width="4407" height="5660" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactJobSeeking_DimJobSeekingMethod2]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="4" sourceattachpoint="9" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5252" y="1588" />
+              <point x="5252" y="4018" />
+              <point x="8960" y="4018" />
+              <point x="8960" y="6449" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3636" top="9199" logicalid="17" controlid="17" masterid="0" hint1="0" hint2="0" width="3000" height="4318" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactJobSeeking_DimDetailIndustry]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="4" sourceattachpoint="17" destattachpoint="28" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3936" y="13117" />
+              <point x="5136" y="13117" />
+              <point x="5136" y="9499" />
+              <point x="6336" y="9499" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3636" top="4562" logicalid="18" controlid="18" masterid="0" hint1="0" hint2="0" width="3000" height="3587" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactJobSeeking_DimMetropolitan]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="4" sourceattachpoint="17" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3936" y="4961" />
+              <point x="5136" y="4961" />
+              <point x="5136" y="7849" />
+              <point x="6336" y="7849" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9210" top="11149" logicalid="19" controlid="19" masterid="0" hint1="0" hint2="0" width="3266" height="5661" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactJobSeeking_DimDetailOccupation]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="6" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12076" y="16310" />
+              <point x="12076" y="13880" />
+              <point x="9510" y="13880" />
+              <point x="9510" y="11449" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="10310" top="1089" logicalid="20" controlid="20" masterid="0" hint1="0" hint2="0" width="2621" height="5660" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactJobSeeking_DimUnemploymentReason]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="4" sourceattachpoint="9" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12531" y="1588" />
+              <point x="12531" y="4018" />
+              <point x="10610" y="4018" />
+              <point x="10610" y="6449" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5403" top="1089" logicalid="21" controlid="21" masterid="0" hint1="0" hint2="0" width="4407" height="5660" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactJobSeeking_DimJobSeekingMethod5]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="4" sourceattachpoint="11" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5802" y="1588" />
+              <point x="5802" y="4018" />
+              <point x="9510" y="4018" />
+              <point x="9510" y="6449" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5953" top="1089" logicalid="22" controlid="22" masterid="0" hint1="0" hint2="0" width="4407" height="5660" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactJobSeeking_DimJobSeekingMethod4]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="4" sourceattachpoint="13" destattachpoint="12" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6352" y="1588" />
+              <point x="6352" y="4018" />
+              <point x="10060" y="4018" />
+              <point x="10060" y="6449" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3203" top="1089" logicalid="23" controlid="23" masterid="0" hint1="0" hint2="0" width="4407" height="5660" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkFactJobSeeking_DimJobSeekingMethod6]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="4" sourceattachpoint="3" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3602" y="1588" />
+              <point x="3602" y="4018" />
+              <point x="7310" y="4018" />
+              <point x="7310" y="6449" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1727" top="5635" logicalid="24" controlid="24" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fkDimMetropolitan_DimState]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="7" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2126" y="8335" />
+              <point x="2126" y="5935" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-9877</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5000</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>88</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="7f720707-6ac9-42b8-b2c6-7a61df440acc">
+      <ID>f Job Seeking Method1</ID>
+      <Name>f Job Seeking Method1</Name>
+      <DimensionID>Dim Job Seeking Method</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c07545a1-c95e-429c-aa0f-cb7e9e533688">
+          <AttributeID>Job Seeking Method Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="926b4a89-bfdf-461e-9564-5cc203208743">
+          <AttributeID>Job Seeking Method Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="786570a7-f0c1-4228-af46-09994da268de">
+      <ID>f Job Seeking Method3</ID>
+      <Name>f Job Seeking Method3</Name>
+      <DimensionID>Dim Job Seeking Method</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1b027a07-1e90-46ed-afb6-ecc76349aa6a">
+          <AttributeID>Job Seeking Method Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1b5e6d27-463a-4058-9951-880101cc9bf3">
+          <AttributeID>Job Seeking Method Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7cee36b7-1efa-4836-9171-c2a63e006427">
+      <ID>f Job Seeking Method2</ID>
+      <Name>f Job Seeking Method2</Name>
+      <DimensionID>Dim Job Seeking Method</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2258af15-75da-4f3e-94ef-3bc7e1c79263">
+          <AttributeID>Job Seeking Method Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4bf42db3-e979-49ad-a00c-6483cceecbde">
+          <AttributeID>Job Seeking Method Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="3fbbb498-90ea-4017-abea-030e3b95b36a">
+      <ID>f Job Seeking Method5</ID>
+      <Name>f Job Seeking Method5</Name>
+      <DimensionID>Dim Job Seeking Method</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1e3dfaa4-65ea-4a6e-a021-60b221b5bb8a">
+          <AttributeID>Job Seeking Method Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5ef15921-57d1-4756-975c-1d142b9e6312">
+          <AttributeID>Job Seeking Method Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8547ac55-57dd-41be-bcec-35164839506f">
+      <ID>f Job Seeking Method4</ID>
+      <Name>f Job Seeking Method4</Name>
+      <DimensionID>Dim Job Seeking Method</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="11a9da5c-eb78-4df7-8c82-00d5e0b9bee1">
+          <AttributeID>Job Seeking Method Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="41bd7bfe-f7ab-4566-a013-1ccfbfef45bc">
+          <AttributeID>Job Seeking Method Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="a2968552-bb71-4e62-a0d2-97e6c2ebce91">
+      <ID>f Job Seeking Method6</ID>
+      <Name>f Job Seeking Method6</Name>
+      <DimensionID>Dim Job Seeking Method</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a0e6dc48-f2ac-459e-8153-87ed90e8148b">
+          <AttributeID>Job Seeking Method Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="be9160de-70a8-4271-8042-2a809ca2d4bb">
+          <AttributeID>Job Seeking Method Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f2e615b6-981c-4406-b9c1-b8e6e9a1d38f">
+      <ID>Dim Marital Status</ID>
+      <Name>Dim Marital Status</Name>
+      <DimensionID>Dim Marital Status</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="12cd9bea-2077-4d19-98ff-a21061943aa5">
+          <AttributeID>Marital Status Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2a64aec2-7836-40ca-9ae0-2f773493bec5">
+          <AttributeID>Marital Status Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e8afe7d6-31b9-4ede-9e0d-f77caa2dd117">
+      <ID>Dim Detail Industry</ID>
+      <Name>Dim Detail Industry</Name>
+      <DimensionID>Dim Detail Industry</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2ae33b6e-35cd-48ef-a7e4-2d8fed667042">
+          <AttributeID>Detail Industry Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cba044ac-ff96-49d9-9e77-b9f491e15ef4">
+          <AttributeID>Detail Industry Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="707f92e8-7b72-4cbf-8e3b-12e62e380af2">
+      <ID>Dim Metropolitan</ID>
+      <Name>Dim Metropolitan</Name>
+      <DimensionID>Dim Metropolitan</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="28f3dcce-7aee-402f-8138-0091d0763323">
+          <AttributeID>Metropolitan Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="22f80214-2846-4d44-9c82-1168c61b12ee">
+          <AttributeID>State Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f9e280e4-3ba6-4964-8b52-66f78b1d96c8">
+          <AttributeID>State Value</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="69345a3f-953c-4786-b658-bd98b6dc1812">
+          <AttributeID>Metropolitan Value</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="70f1ec75-dbd8-464d-a348-6575f34aa53a">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="aadf6241-479f-4700-8de6-8ad402b4bc55">
+      <ID>Dim Detail Occupation</ID>
+      <Name>Dim Detail Occupation</Name>
+      <DimensionID>Dim Detail Occupation</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="346070ac-76b6-45da-8675-18ff889c1563">
+          <AttributeID>Detail Occupation Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3a5391fb-3d9b-4ce7-a518-30d69928f70b">
+          <AttributeID>Detail Occupation Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ab68dd13-cd4a-4130-a169-893a0e11e05d">
+      <ID>Dim Unemployment Reason</ID>
+      <Name>Dim Unemployment Reason</Name>
+      <DimensionID>Dim Unemployment Reason</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f30ed562-d514-463b-b6c1-fccbd32f4900">
+          <AttributeID>Unemployment Reason Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="07f87960-7b20-4e15-b4b9-cb4cfc675709">
+          <AttributeID>Unemployment Reason Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="07ecc447-5c4b-4977-acaf-c6e063c75848">
+      <ID>Dim Race</ID>
+      <Name>Dim Race</Name>
+      <DimensionID>Dim Race</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="19322f0c-3b1b-4c05-a579-3562b5063e56">
+          <AttributeID>Race Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4a2d142a-2f61-4020-bd32-559370c04f47">
+          <AttributeID>Race Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="270f9b24-d355-41ba-8917-203b8ba0f7ff">
+      <ID>Dim Education</ID>
+      <Name>Dim Education</Name>
+      <DimensionID>Dim Education</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="86fda4e4-1235-4a09-9afe-19dfdd6691ab">
+          <AttributeID>Education Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bd81dfc0-c888-4a8b-9ff5-37e76536101c">
+          <AttributeID>Education Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="d89d55a6-aefd-4153-b316-984a9cd05bc1">
+      <ID>Fact Job Seeking</ID>
+      <Name>Fact Job Seeking</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="c884d5a3-6f79-4998-ab97-0da1a8c27260">
+          <ID>n Age</ID>
+          <Name>Job Seeking Min Age</Name>
+          <AggregateFunction>Min</AggregateFunction>
+          <Source dwd:design-time-name="75ed2b04-4280-4e64-8b3b-73396665d907">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="572804f3-679b-4ce6-90d5-0c192ca8949a">
+              <TableID>dbo_FactJobSeeking</TableID>
+              <ColumnID>n_age</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f1d5500e-801a-4013-ad0c-07b56b3f6906">
+          <ID>n Unemployment Duration</ID>
+          <Name>Job Seeking Max Duration</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="5a43b6f2-81bb-473d-b5c0-0308675bd238">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d41d43d9-9771-40dd-878a-9080664fefec">
+              <TableID>dbo_FactJobSeeking</TableID>
+              <ColumnID>n_unemployment_duration</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="11de0ebd-2205-4f85-9deb-f2701335c3e4">
+          <ID>n Job Seeking Methods Count</ID>
+          <Name>Job Seeking Methods Count</Name>
+          <Source dwd:design-time-name="370fb776-2bd2-48f5-8d05-1dbb716f5dbb">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c04d43a6-3f8c-469c-ba73-9d5a420292ce">
+              <TableID>dbo_FactJobSeeking</TableID>
+              <ColumnID>n_job_seeking_methods_count</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f03fc437-5700-49d8-8f58-b9f044b85817">
+          <ID>Fact Job Seeking Count</ID>
+          <Name>JobSeeker Number Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="6a10e3b1-a1e7-4660-b897-6358b7b0bf63">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="60804cc0-11c1-4d73-89f2-85da9d644120">
+              <TableID>dbo_FactJobSeeking</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cc03afbf-f2ff-44fb-ad94-e579516730a6">
+          <ID>n Age 1</ID>
+          <Name>Job Seeking Max Age</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="1f20fd3a-599d-4f95-bfc1-7cfb171a6dc9">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0f124156-22b4-4a8c-b60c-cdcf7fb2deed">
+              <TableID>dbo_FactJobSeeking</TableID>
+              <ColumnID>n_age</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0d70bb76-d079-4c48-a4e5-6797da5e7447">
+          <CubeDimensionID>f Job Seeking Method1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="306a0b3a-a9de-4bfb-a1ab-bafc34e1dd36">
+              <AttributeID>Job Seeking Method Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="950cc115-01e6-49da-bddd-f8c05d69a4fb">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="28cf77be-428e-4bbb-b78e-632d2c21d59c">
+                    <TableID>dbo_FactJobSeeking</TableID>
+                    <ColumnID>f_job_seeking_method1_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dc626896-1451-4622-8188-b4bb56eec14b">
+          <CubeDimensionID>f Job Seeking Method3</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8840c016-92ed-4425-b46a-105cdea14efc">
+              <AttributeID>Job Seeking Method Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0f7d28e6-b9e3-43c3-b8d2-babde4d94e4a">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="78d17b2e-9ec4-4247-8b73-412bb576f63d">
+                    <TableID>dbo_FactJobSeeking</TableID>
+                    <ColumnID>f_job_seeking_method3_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="34516da3-05da-4ed9-8ba2-f110e73ddcaf">
+          <CubeDimensionID>f Job Seeking Method2</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="dd6454d6-41ff-43ff-a632-6970c6b9a129">
+              <AttributeID>Job Seeking Method Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b1c6bad1-9770-42b4-ba82-736fb52cc9f5">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d11bc502-8aeb-4be2-9390-80b3d5c92e16">
+                    <TableID>dbo_FactJobSeeking</TableID>
+                    <ColumnID>f_job_seeking_method2_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d899bab7-c27f-4d22-b259-93b6ee78ee5c">
+          <CubeDimensionID>Dim Marital Status</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="07202bbe-1ddc-457f-9025-77042ebde190">
+              <AttributeID>Marital Status Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="de4bc388-97ef-4851-a66c-8888f1fb72f1">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c766030c-2aba-47a0-8710-31fc5eb7b741">
+                    <TableID>dbo_FactJobSeeking</TableID>
+                    <ColumnID>f_marital_status_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="db0828c8-9cc3-47cd-819f-547fbd09279c">
+          <CubeDimensionID>Dim Detail Industry</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6c6fcc3a-8bb4-4124-9130-6a8228ba399f">
+              <AttributeID>Detail Industry Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="742cb612-f0d5-4e01-a3f0-fe38e493af88">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d2f84080-11cd-4c9d-88f5-522acd9944a2">
+                    <TableID>dbo_FactJobSeeking</TableID>
+                    <ColumnID>f_detail_industry_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e63fac51-e418-4e0e-9b1a-0aa7fbff0444">
+          <CubeDimensionID>Dim Metropolitan</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e9febe63-49d9-4120-8837-d625a7c2da18">
+              <AttributeID>Metropolitan Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6af6aa32-7f75-4ef7-907a-6d9f868aea68">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1768bb9f-0289-46cc-ba8a-e640ad4308f0">
+                    <TableID>dbo_FactJobSeeking</TableID>
+                    <ColumnID>f_metropolitan_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7142317f-2761-4d1a-a3b3-3e632060beed">
+          <CubeDimensionID>Dim Detail Occupation</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="18ee51f8-717f-40b3-9340-92e80d8701f9">
+              <AttributeID>Detail Occupation Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e728fe93-6515-4143-a8d4-f59e23d41380">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ade6bfe3-5510-4245-a975-e180a353e270">
+                    <TableID>dbo_FactJobSeeking</TableID>
+                    <ColumnID>f_detail_occupation_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="876042fa-834f-448d-a6bb-afd31d16a188">
+          <CubeDimensionID>Dim Unemployment Reason</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5e1741ed-fc42-4a89-9ee1-9010bde99ba7">
+              <AttributeID>Unemployment Reason Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e41bd789-6185-4512-87a6-b6e4bedaedfb">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8c2c6af8-6e5e-4013-bad0-66c8987bf533">
+                    <TableID>dbo_FactJobSeeking</TableID>
+                    <ColumnID>f_unemployment_reason_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="86dd8cb3-55c0-43c0-acf6-736ae981b329">
+          <CubeDimensionID>Dim Race</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="547e3626-10eb-4723-a099-dbd5da7f2ff7">
+              <AttributeID>Race Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c82dfa19-a06a-4f02-a66b-7b322d89d9b5">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dacd6558-7503-4e76-af8d-19eb10f073d8">
+                    <TableID>dbo_FactJobSeeking</TableID>
+                    <ColumnID>f_race_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0d2adaa5-507a-4bb3-a344-a1e4bc7b9c6b">
+          <CubeDimensionID>Dim Education</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="13df694a-2ec1-4e4d-8581-b3c417dc1a31">
+              <AttributeID>Education Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="476427ba-245c-4635-b0c3-62607ac505c0">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="33abd275-9ba5-47e1-a519-e5b6819a792d">
+                    <TableID>dbo_FactJobSeeking</TableID>
+                    <ColumnID>f_education_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="284794c5-0f28-46f7-9ad7-6ebf78bed514">
+          <CubeDimensionID>f Job Seeking Method5</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5f21081a-8a27-42d4-8fd8-e0a8bd03e1aa">
+              <AttributeID>Job Seeking Method Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f8fa409d-9bd7-4653-b7a0-486a063419b6">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="11db5a70-dc7c-4b12-b721-581b418361fb">
+                    <TableID>dbo_FactJobSeeking</TableID>
+                    <ColumnID>f_job_seeking_method5_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fb3f936d-4718-4efa-a768-3731ef257af9">
+          <CubeDimensionID>f Job Seeking Method4</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2f24be59-2f2c-4f10-bf29-0eb059d1505e">
+              <AttributeID>Job Seeking Method Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="20b79583-9655-4a58-99ca-a00725d4b83a">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="78273baa-a206-4303-8da6-844bd18aca2b">
+                    <TableID>dbo_FactJobSeeking</TableID>
+                    <ColumnID>f_job_seeking_method4_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="282367d1-4e4f-47b5-860d-c61701729098">
+          <CubeDimensionID>f Job Seeking Method6</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0708e146-faf9-4c8c-a43e-7721d4eccd02">
+              <AttributeID>Job Seeking Method Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a233dcb7-6ba2-4332-a604-c04a29a3fc29">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="44549458-2afd-47a1-83e2-6853440984f1">
+                    <TableID>dbo_FactJobSeeking</TableID>
+                    <ColumnID>f_job_seeking_method6_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="0261e6c7-4f38-4e3f-bf9e-29467246a3e4">
+    <DataSourceViewID>CPS DW Metadata View</DataSourceViewID>
+  </Source>
+</Cube>

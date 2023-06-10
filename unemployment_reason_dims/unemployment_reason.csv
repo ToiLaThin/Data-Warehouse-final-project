@@ -1,0 +1,7 @@
+unemployment_reason_id,unemployment_reason_value
+1,JOBLOSER/ON LAYOFF
+2,OTHER JOBLOSER
+3,TEMPORARY JOB ENDED
+4,JOBLEAVER
+5,RE-ENTRANT
+6,NEW-ENTRANT
