@@ -10,6 +10,6 @@
 4. Run SSAS_CPS solution for query the OLAP cube
 5. Run Power BI for report(note that may require configuration for your own machine to get the data source)  
 There is a detail word report on the project
-here is the link to the datasets, which are not included in this repos due to their massive size(cannot push to git hub): 
-https://drive.google.com/drive/u/0/folders/1reTx6dvwRbDoJ-EKlxS2vDwXeq4hbEo7 
-Remember to put those two file at the root folder, and keep the same name
+ Here is the link to the datasets, which are not included in this repos due to their massive size(cannot push to git hub): 
+ https://drive.google.com/drive/u/0/folders/1reTx6dvwRbDoJ-EKlxS2vDwXeq4hbEo7 
+ Remember to put those two file at the root folder, and keep the same name
