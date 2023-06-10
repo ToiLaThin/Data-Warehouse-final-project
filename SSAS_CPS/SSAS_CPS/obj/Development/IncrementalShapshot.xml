@@ -1,0 +1,166 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_CPS</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>cMZSUrw2/YpaZRE8aLugAo0zOzY=5/8/2023 8:16:24 AM5/8/2023 8:16:19 AM</TimeStamp>
+        <ID>
+          <String>CPS DW Data Source</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>DFUK18h8zCB73tY7oHX4CxqQoQU=5/8/2023 8:46:11 AM5/8/2023 8:16:45 AM</TimeStamp>
+        <ID>
+          <String>CPS DW Metadata View</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wc58sY6HojEVPgxK9cSVPlEvrfg=5/8/2023 10:01:22 AM5/8/2023 8:26:47 AM</TimeStamp>
+        <ID>
+          <String>Dim Metropolitan</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cB0M+8jBQATg4Qn1yFJNwOgIXlQ=5/9/2023 4:47:04 AM5/8/2023 8:26:47 AM</TimeStamp>
+        <ID>
+          <String>Dim Marital Status</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KW+54DOlOn+sAeqItUvtc8yeN6U=5/9/2023 4:47:04 AM5/8/2023 8:26:47 AM</TimeStamp>
+        <ID>
+          <String>Dim Education</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>mPU3QNVcxhvvLoc+q11XKLKUHwU=5/9/2023 4:47:04 AM5/8/2023 8:26:47 AM</TimeStamp>
+        <ID>
+          <String>Dim Race</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7rWlZXLillS6kEmXZ0ZmD42CkoM=5/9/2023 4:47:04 AM5/8/2023 8:26:47 AM</TimeStamp>
+        <ID>
+          <String>Dim Detail Occupation</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KPf5pNOT86htzsDqqLD4jKRO3yo=5/9/2023 4:47:04 AM5/8/2023 8:26:47 AM</TimeStamp>
+        <ID>
+          <String>Dim Detail Industry</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SxRzIsHaUIAR54vpwWBmLQgVcO4=5/8/2023 9:49:49 AM5/8/2023 8:26:47 AM</TimeStamp>
+        <ID>
+          <String>Dim House Hold Income</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0Ripqm+5sjV//ZTvj++H3d4K+5U=5/8/2023 9:53:48 AM5/8/2023 8:26:47 AM</TimeStamp>
+        <ID>
+          <String>Dim House Hold Unit</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HPh5elVpvWr5cOGwqOsO6JN1AZ4=5/8/2023 9:53:20 AM5/8/2023 8:26:47 AM</TimeStamp>
+        <ID>
+          <String>Dim House Hold Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fyHFUOFKLVlEEV+u1UQ/ELASaA0=5/9/2023 4:51:43 AM5/8/2023 8:26:47 AM</TimeStamp>
+        <ID>
+          <String>Dim Job Seeking Method</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZYd2Iuia2QtCcWkb+JqxY50A3To=5/9/2023 4:47:04 AM5/8/2023 8:26:47 AM</TimeStamp>
+        <ID>
+          <String>Dim Unemployment Reason</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>+KL8xJHeQCLY2q/hr+EUMfqq2wA=5/8/2023 10:06:04 AM5/8/2023 9:36:57 AMEZSou5xFQJkTabOJygMuRZinYWQ=5/8/2023 10:06:04 AM5/8/2023 9:36:57 AM</TimeStamp>
+        <ID>
+          <String>CPS DW Household Cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>nFsMPBVjJO0omJwyOgwxoSP7RQc=5/9/2023 5:38:06 AM5/9/2023 4:15:21 AMVsieqRUyFm2vRGJliZMrS7T8Wrw=5/9/2023 5:38:06 AM5/9/2023 4:15:21 AM</TimeStamp>
+        <ID>
+          <String>CPS DW Employment Cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>5DCrDLrdaJPLqLOQ0n5k0yeFunw=5/9/2023 6:18:00 AM5/9/2023 4:20:51 AMh8lTlQ2R3MsHKXg6obwI6qE9Yy0=5/9/2023 6:16:15 AM5/9/2023 4:20:52 AM</TimeStamp>
+        <ID>
+          <String>CPS DW Metadata View</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>wbDLUc/ZYGsqyqL1M0zEP6hTwCk=5/9/2023 4:52:27 AM5/9/2023 4:24:14 AMBRHgosTju6ZMK9DxWe3HNkjfkX8=5/9/2023 4:27:58 AM5/9/2023 4:24:14 AM</TimeStamp>
+        <ID>
+          <String>CPS DW Job Seeking Cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>rLoQ9giH8WS51LaNJPx0mU1/Apg=5/9/2023 4:47:04 AM5/9/2023 4:29:41 AMu0XhmfAudQnBpTApwrM95DFNLfY=5/9/2023 4:33:46 AM5/9/2023 4:29:41 AM</TimeStamp>
+        <ID>
+          <String>CPS DW Metadata View 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>DLulk75qADOjWdlpI5MD6wJ/NfU=5/9/2023 4:47:04 AM5/9/2023 4:34:34 AMv4iuuE4gePz/5jwJ1JdhxD1prjI=5/9/2023 4:37:49 AM5/9/2023 4:34:34 AM</TimeStamp>
+        <ID>
+          <String>CPS DW Weekly Employed Cube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>3hlRU8UQJgMAPCzszC6YfAWCbls=5/8/2023 8:06:43 AM5/8/2023 8:06:43 AM</TimeStamp>
+      <ID>
+        <String>SSAS_CPS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-05-08T23:18:02.673333Z</LastDeployed>
+</DeploymentSnapshot>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SSIS_CPS", "SSIS_CPS\SSIS_CPS.dtproj", "{9946FAD5-09C3-49B2-A69F-722CAC486748}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9946FAD5-09C3-49B2-A69F-722CAC486748}.Development|Default.ActiveCfg = Development
+		{9946FAD5-09C3-49B2-A69F-722CAC486748}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFC7F82B-3DDC-4357-B60F-DD2764F46E71}
+	EndGlobalSection
+EndGlobal

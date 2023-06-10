@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.CPS_ERR"
+  DTS:DTSID="{B6D9EFAA-D735-49F4-9DC5-E88EE27016DE}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=CPS_ERR;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-SSIS_CPS-{B6D9EFAA-D735-49F4-9DC5-E88EE27016DE}localhost.CPS_ERR;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

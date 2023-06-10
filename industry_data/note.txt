@@ -1,0 +1,3 @@
+major_occupation_cate(PRMJOCGR) => major_occupation(PRMJOCC) => detail_occupation(PRDTOCC)
+major_industry(PRMJIND) => detail_industry(PRDTIND)
+PRDTCOW - DETAILED CLASS OF WORKER RECODE - JOB

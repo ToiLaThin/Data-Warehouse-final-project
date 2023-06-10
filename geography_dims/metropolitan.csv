@@ -1,0 +1,261 @@
+metropolitan_id,metropolitan_value,foreign_state_id
+10180,Abilene,48
+10420,Akron,39
+10580,Albany-Schenectady-Troy,36
+10740,Albuquerque,35
+10900,Allentown-Bethlehem-Easton,42
+11100,Amarillo,48
+11460,Ann Arbor,26
+11540,Appleton,55
+11700,Asheville,37
+12020,Athens-Clarke County,13
+12060,Atlanta-Sandy Springs-Roswell,13
+12100,Atlantic City-Hammonton,34
+12220,Auburn-Opelika,1
+12260,Augusta-Richmond County,13
+12420,Austin-Round Rock,48
+12540,Bakersfield,6
+12580,Baltimore-Columbia-Towson,24
+12620,Bangor,23
+12700,Barnstable,25
+12940,Baton Rouge,22
+12980,Battle Creek,26
+13140,Beaumont-Port Arthur,48
+13460,Bend-Redmond,41
+13740,Billings,30
+13780,Binghamton,36
+13820,Birmingham-Hoover,1
+13980,Blacksburgâ€”Christiansburg-Radford,51
+14010,Bloomington,17
+14020,Bloomington,18
+14260,Boise City,16
+14460,Boston-Cambridge-Newton,25
+14500,Boulder,8
+14540,Bowling Green,21
+14860,Bridgeport-Stamford-Norwalk,9
+15180,Brownsville-Harlingen,48
+15380,Buffalo-Cheektowaga-Niagara Falls,36
+15500,Burlington,37
+15540,Burlington-South Burlington,50
+15680,California-Lexington Park,24
+15940,Canton-Massillon,39
+15980,Cape Coral-Fort Myers,12
+16060,Carbondale-Marion,17
+16300,Cedar Rapids,19
+16540,Chambersburg-Waynesboro,42
+16580,Champaign-Urbana,17
+16620,Charleston,54
+16700,Charleston-North Charleston,45
+16740,Charlotte-Concord-Gastonia,37
+16820,Charlottesville,51
+16860,Chattanooga,47
+16980,Chicago-Naperville-Elgin,17
+17020,Chico,6
+17140,Cincinnati,39
+17300,Clarksville,47
+17420,Cleveland,47
+17460,Cleveland-Elyria,39
+17660,Coeur dâ€™Alene,16
+17780,College Station-Bryan,48
+17820,Colorado Springs,8
+17900,Columbia,45
+17980,Columbus,13
+18140,Columbus,39
+18580,Corpus Christi,48
+19100,Dallas-Fort Worth-Arlington,48
+19300,Daphne-Fairhope-Foley,1
+19340,Davenport-Moline-Rock Island,19
+19380,Dayton,39
+19660,Deltona-Daytona Beach-Ormond Beach,12
+19740,Denver-Aurora-Lakewood,8
+19780,Des Moines-West Des Moines,19
+19820,Detroit-Warren-Dearborn,26
+20100,Dover,10
+20500,Durham-Chapel Hill,37
+20700,East Stroudsburg,42
+21140,Elkhart-Goshen,18
+21340,El Paso,48
+21500,Erie,42
+21660,Eugene,41
+21780,Evansville,18
+22020,Fargo,38
+22140,Farmington,35
+22180,Fayetteville,37
+22220,Fayetteville-Springdale-Rogers,5
+22420,Flint,26
+22500,Florence,45
+22520,Florence-Muscle Shoals,1
+22660,Fort Collins,8
+22900,Fort Smith,5
+23060,Fort Wayne,18
+23420,Fresno,6
+23540,Gainesville,12
+23580,Gainesville,13
+24020,Glen Falls,36
+24140,Goldsboro,37
+24340,Grand Rapids-Wyoming,26
+24540,Greeley,8
+24580,Green Bay,55
+24660,Greensboro-High Point,37
+24780,Greenville,37
+24860,Greenville-Anderson-Mauldin,45
+25180,Hagerstown-Martinsburg,24
+25260,Hanford-Corcoran,6
+25420,Harrisburg-Carlisle,42
+25540,Hartford-West Hartford-East Hartford,9
+25860,Hickory-Morganton-Lenoir,37
+25940,Hilton Head Island-Bluffton-Beaufort,45
+26420,Houston-Baytown-Sugar Land,48
+26580,Huntington-Ashland,54
+26620,Huntsville,1
+26820,Idaho Falls,16
+26900,Indianapolis,18
+26980,Iowa City,19
+27100,Jackson,26
+27140,Jackson,28
+27260,Jacksonville,12
+27340,Jacksonville,37
+27500,Janesville-Beloit,55
+27740,Johnson City,47
+27780,Johnstown,42
+27980,Kahului-Wailuku-Lahaina,15
+28020,Kalamazoo-Portage,26
+28140,Kansas City,29
+28420,Kennewick-Richland,53
+28660,Killeen-Temple-Fort Hood,48
+28700,Kingsport-Bristol,47
+28940,Knoxville,47
+29180,Lafayette,22
+29200,Lafayette-West Lafayette,18
+29340,Lake Charles,22
+29460,Lakeland-Winter Haven,12
+29540,Lancaster,42
+29620,Lansing-East Lansing,26
+29700,Laredo,48
+29740,Las Cruces,35
+29820,Las Vegas-Paradise,32
+30340,Lewiston-Auburn,23
+30460,Lexington-Fayette,21
+30780,Little Rock-North Little Rock,5
+30980,Longview,48
+31080,Los Angeles-Long Beach-Anaheim,6
+31140,Louisville,21
+31180,Lubbock,48
+31420,Macon,13
+31540,Madison,55
+31700,Manchester-Nashua,33
+32580,McAllen-Edinburg-Mission,48
+32780,Medford,41
+32820,Memphis,47
+33100,Miami-Fort Lauderdale-West Palm Beach,12
+33340,Milwaukee-Waukesha-West Allis,55
+33460,Minneapolis-St Paul-Bloomington,27
+33660,Mobile,1
+33700,Modesto,6
+33740,Monroe,22
+33780,Monroe,26
+33860,Montgomery,1
+34060,Morgantown,54
+34580,Mount Vernon-Anacortes,53
+34740,Muskegon-Norton Shores,26
+34820,Myrtle Beach-Conway-North Myrtle Beach,45
+34940,Naples-Immokalee-Marco Island,12
+34980,Nashville-Davidson-Murfreesboro,47
+35300,New Haven-Milford,9
+35380,New Orleans-Metairie,22
+35620,New York-Newark- Jersey City,36
+35660,Niles-Benton Harbor,26
+35840,North Port-Sarasota-Bradenton,12
+35980,Norwich-New London,9
+36100,Ocala,12
+36220,Odessa,48
+36260,Ogden-Clearfield,49
+36420,Oklahoma City,40
+36540,Omaha-Council Bluffs,31
+36740,Orlando,12
+36780,Oshkosh-Neenah,55
+37100,Oxnard-Thousand Oaks-Ventura,6
+37340,Palm Bay-Melbourne-Titusville,12
+37460,Panama City,12
+37860,Pensacola-Ferry Pass-Brent,12
+37900,Peoria,17
+37980,Philadelphia-Camden-Wilmington,42
+38060,Phoenix-Mesa-Scottsdale,4
+38220,Pine Bluff,5
+38300,Pittsburgh,42
+38860,Portland-South Portland,23
+38900,Portland-Vancouver-Hillsboro,41
+38940,Port St. Lucie-Fort Pierce,12
+39140,Prescott,4
+39300,Providence-Warwick,44
+39340,Provo-Orem,49
+39540,Racine,55
+39580,Raleigh,37
+39740,Reading,42
+39820,Redding,6
+40060,Richmond,51
+40140,Riverside-San Bernardino-Ontario,6
+40220,Roanoke,51
+40380,Rochester,36
+40420,Rockford,17
+40900,Sacramento--Arden-Arcadeâ€“Roseville,6
+40980,Saginaw,26
+41100,St. George,49
+41180,St. Louis,29
+41420,Salem,41
+41500,Salinas,6
+41540,Salisbury,24
+41620,Salt Lake City,49
+41700,San Antonio,48
+41740,San Diego-Carlsbad-San Marcos,6
+41860,San Francisco-Oakland-Fremont,6
+41940,San Jose-Sunnyvale-Santa Clara,6
+42020,San Luis Obispo-Paso Robles,6
+42100,Santa Cruz-Watsonville,6
+42140,Santa Fe,35
+42200,Santa Maria-Santa Barbara,6
+42220,Santa Rosa-Petaluma,6
+42340,Savannah,13
+42540,Scranton--Wilkes-Barre,42
+42660,Seattle-Tacoma-Bellevue,53
+43300,Sherman-Dennison,48
+43340,Shreveport-Bossier City,22
+43620,Sioux Falls,46
+43780,South Bend-Mishawaka,18
+43900,Spartanburg,45
+44060,Spokane-Spokane Valley,53
+44100,Springfield,17
+44140,Springfield,25
+44180,Springfield,29
+44700,Stockton-Lodi,6
+45060,Syracuse,36
+45220,Tallahassee,12
+45300,Tampa-St. Petersburg-Clearwater,12
+45460,Terre Haute,18
+45780,Toledo,39
+45820,Topeka,20
+45940,Trenton,34
+46060,Tucson,4
+46140,Tulsa,40
+46340,Tyler,48
+46520,Urban Honolulu,15
+46540,Utica-Rome,36
+46700,Vallejo-Fairfield,6
+47220,Vineland-Bridgeton,34
+47260,Virginia Beach-Norfolk-Newport News,51
+47300,Visalia-Porterville,6
+47380,Waco,48
+47580,Warner Robins,13
+47900,Washington-Arlington-Alexandria,11
+47940,Waterloo-Cedar Falls,19
+48060,Watertown-Fort Drum,36
+48140,Wausau,55
+48620,Wichita,20
+48660,Wichita Falls,48
+48700,Williamsport,42
+49020,Winchester,51
+49180,Winston-Salem,37
+49340,Worcester,25
+49620,York-Hanover,42
+49660,Youngstown-Warren-Boardman,39
+49740,Yuma,4
